@@ -2,17 +2,17 @@
 {
   background-image: url('img/gifproto.gif');
   background-repeat: no-repeat;
-  background-attachment: ;
+  background-attachment: fixed;
   background-position: center;
-  background-size: ;
+  background-size: cover;
   min-width: 100vw;
   min-height: auto;
   /*overflow: hidden;*/
 }
 img
 {
-  width: 200px;
-  height: 350px;
+  max-width: 200px;
+  max-height: 350px;
 }
 
 .backDoor
@@ -24,7 +24,10 @@ img
   max-height: 350px;
   margin: 0 auto;
   margin-top:50px;
-  padding-left:0px !important;
+}
+
+.col-sm-2{
+  padding-left: none !important;
 }
 
 .door
@@ -39,8 +42,10 @@ img
   transform-origin: left;
   /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
 }
-
 .door2
 {
   position:absolute;
@@ -53,6 +58,9 @@ img
   transform-origin: left;
   /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
 }
 
 .doorOpen
