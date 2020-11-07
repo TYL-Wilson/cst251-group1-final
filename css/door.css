@@ -2,33 +2,36 @@
 {
   background-image: url('img/gifproto.gif');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: ;
   background-position: center;
-  background-size: cover;
+  background-size: ;
   min-width: 100vw;
   min-height: auto;
   /*overflow: hidden;*/
 }
+#video
+{
+  position: center
+}
 img
 {
-  max-width: 200px;
-  max-height: 350px;
+  width: 200px;
+  height: 350px;
 }
 
 .backDoor
 {
   position:relative;
   width:200px;
-  height:350px;
+  height:350px !important;
   max-width: 200px;
   max-height: 350px;
   margin: 0 auto;
   margin-top:50px;
+  padding-left: 0px !important;
 }
 
-.col-sm-2{
-  padding-left: none !important;
-}
+
 
 .door
 {
@@ -46,6 +49,7 @@ img
    /*max-width: 25vw;
    /*max-height: auto;*/
 }
+
 .door2
 {
   position:absolute;
@@ -64,6 +68,233 @@ img
 }
 
 .doorOpen
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.doorOpen2
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.door3
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen3
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door4
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen4
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door5
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen5
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door6
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen6
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door7
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen7
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door8
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen8
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door9
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen9
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door10
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen10
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door11
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen11
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.door12
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
+}
+
+.doorOpen12
 {
   /*prespectiv creates the door open effect*/
   transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
