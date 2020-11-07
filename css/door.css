@@ -9,14 +9,20 @@
   min-height: auto;
   /*overflow: hidden;*/
 }
-#video
-{
-  position: center
-}
+
 img
 {
   width: 200px;
   height: 350px;
+}
+
+#help
+{
+    display: block;
+    min-width: 80vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .backDoor
@@ -49,6 +55,12 @@ img
    /*max-width: 25vw;
    /*max-height: auto;*/
 }
+
+/* .jumbotron{
+  background-image: url('img/video.gif');
+  min-width: 100vw;
+  min-height: auto;
+} */
 
 .door2
 {
