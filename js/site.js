@@ -1,17 +1,56 @@
-Intro GIF + audio (Title & doors fade in)
+/*
+  * Authors: Team 1
+  * Created: 06 November 2020
+  * License: Public Domain
+*/
 
-Doors number TBD
-Every door: multiple images (open/closed); animation
-Each door = button
-Library of pages + animation (3 random pages per door)
-Page content
-Portfolio pieces - 6
-Random images, videos, gifs - 12
+// Define the output field
+var topDoors = document.getElementById("top");
+
+// Class Definition
+class Door {
+	constructor(imgSrc) {
+		this.imgSrc = img;
+		//this.link = link;
+	}
+	displayHTML() {
+    return "<div class="col-sm-2 backDoor">
+      <img class="img-responsive" src="img/back_sample.png" alt="Back">
+      <div class="door"> +
+      <img " + imgSrc + "alt="Door">
+      </div>
+    </div>";
+  }
+  console.log(displayHTML)
+}
+//loop through image files to create a source link
+var files = {'jpg':14};
+var pageName = "door";
+for (var ext in files){
+for (var i = 0; i < files[ext]; i++){
+    var src = "src = img/" + pageName + "-" + (i+1) + "." + ext;}
+    //instantiate new door 
+    var newDoor = new Door(src);
+    $("#top").after("<div class="col-sm-2 backDoor">
+      <img class="img-responsive" src="img/back_sample.png" alt="Back">
+      <div class="door"> +
+      <img " + imgSrc + "alt="Door">
+      </div>
+    </div>")
+    console.log("new door added");
+}
+}
+// Create new objects using the class
 
 
-// load page - intro animation
-// load page - doors closed + Title
-// door open on click + animation plays
-// delay
-// take into a random page contents (for loop)
-//
+// Create an array of vehicles
+//var vehicleArray = [myCar, myBike];
+
+// loop through array of vehicles
+//for (i=0; i<vehicleArray.length; i++) {
+// get info for object in array
+//  console.log(info);
+// add info to output div
+//  newEl.innerHTML = displayHTML;
+//  topDoors.appendChild(newEl);
+}

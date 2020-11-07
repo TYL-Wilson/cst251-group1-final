@@ -11,8 +11,8 @@
 }
 img
 {
-  max-width: 200px;
-  max-height: 350px;
+  width: 200px;
+  height: 350px;
 }
 
 .backDoor
@@ -24,10 +24,7 @@ img
   max-height: 350px;
   margin: 0 auto;
   margin-top:50px;
-}
-
-.col-sm-2{
-  padding-left: none !important;
+  padding-left:0px !important;
 }
 
 .door
@@ -42,10 +39,8 @@ img
   transform-origin: left;
   /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
-   /*overflow: hidden;
-   /*max-width: 25vw;
-   /*max-height: auto;*/
 }
+
 .door2
 {
   position:absolute;
@@ -58,9 +53,6 @@ img
   transform-origin: left;
   /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
-   /*overflow: hidden;
-   /*max-width: 25vw;
-   /*max-height: auto;*/
 }
 
 .doorOpen
