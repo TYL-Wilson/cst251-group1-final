@@ -1,77 +1,68 @@
+#body
+{
+  background-image: url('img/gifproto.gif');
+  background-repeat: no-repeat;
+  background-attachment: ;
+  background-position: center;
+  background-size: ;
+  min-width: 100vw;
+  min-height: auto;
+  /*overflow: hidden;*/
+}
+img
+{
+  max-width: 200px;
+  max-height: 350px;
+}
+
 .backDoor
 {
-  background-color: #333;
   position:relative;
   width:200px;
-  height:300px;
+  height:350px;
   max-width: 200px;
-  max-height: 300px;
+  max-height: 350px;
   margin: 0 auto;
   margin-top:50px;
 }
 
+.col-sm-2{
+  padding-left: none !important;
+}
+
 .door
 {
-  background-color: brown;
   position:absolute;
   top:0px;
   left:0px;
   width:200px;
-  height:300px;
+  height:350px;
   max-width: 200px;
-  max-height: 300px;
+  max-height: 350px;
   transform-origin: left;
   /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
 }
-.move1{
-  top:-350px;
-  left:360px;
+.door2
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:350px;
+  max-width: 200px;
+  max-height: 350px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+   /*overflow: hidden;
+   /*max-width: 25vw;
+   /*max-height: auto;*/
 }
-.move2{
-  top:-350px;
-  left:360px
-}
-.move3{
-  top:-700px;
 
-}
-.move4{
-  top:-1400px;
-  left:-360px
-}
-.move5{
-  top:-1400px;
-  left:-360px
-}
-.move6{
-  top:-2100px;
-  left:660px
-}
-.move7{
-  top:-2450px;
-  left:-645px;
-}
-.move8{
-  top:-2450px;
-  left:660px
-}
-.move9{
-  top:-2800px;
-  left:-645px
-}
-.move10{
-  top:-350px;
-  left:360px
-}
-.move11{
-  top:-350px;
-  left:360px
-}
-.move12{
-  top:-350px;
-  left:360px
-}
 .doorOpen
 {
   /*prespectiv creates the door open effect*/
