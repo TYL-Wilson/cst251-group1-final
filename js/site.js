@@ -29,7 +29,7 @@ var pageName = "door";
 for (var ext in files){
 for (var i = 0; i < files[ext]; i++){
     var src = "src = img/" + pageName + "-" + (i+1) + "." + ext;}
-    //instantiate new door 
+    //instantiate new door
     var newDoor = new Door(src);
     $("#top").after("<div class="col-sm-2 backDoor">
       <img class="img-responsive" src="img/back_sample.png" alt="Back">
@@ -54,3 +54,7 @@ for (var i = 0; i < files[ext]; i++){
 //  newEl.innerHTML = displayHTML;
 //  topDoors.appendChild(newEl);
 }
+
+/*STAR BACKGROUND JSS*/ // SOURCE: https://codepen.io/loktar00/pen/uEJKl
+
+//END
