@@ -26,4 +26,7 @@ canvas {
 .container-fluid{
   background-color: #0a0a05;
 }
+.img-fluid{
+  z-index: 5;
+}
 /*END*/
