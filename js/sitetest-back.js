@@ -23,7 +23,19 @@ randomLink[8] = "https://martamuza.design";
 randomLink[9] = "https://martamuza.wixsite.com/mist";
 randomLink[10] = "https://nmustafamgubanova.weebly.com/";
 randomLink[11] = "https://mgubanova.github.io/cst252/lab19/";
-
+randomLink[12] = "https://youtu.be/DJRPo1dvZuU";
+randomLink[13] = "https://jogracida.github.io/cst252/index.html";
+randomLink[14] = "https://itcdland.csumb.edu/~jogracida/cst251/lab3/indexlab3works.html";
+randomLink[15] = "https://drive.google.com/file/d/1QrMGb-MLr2fVxuKg2muEWsmZCaAt2Xd1/view?usp=sharing";
+randomLink[16] = "https://drive.google.com/file/d/1ybHCt8fPLIH5kozxHAPyRDaEGgHlacAm/view?usp=sharing";
+randomLink[17] = "https://www.youtube.com/watch?v=uSFhDbdL-uk";
+randomLink[18] = "https://www.artstation.com/?sort_by=community";
+randomLink[19] = "https://polycount.com/"
+randomLink[20] = "https://ajsamudio.github.io/cst252/";
+randomLink[21] = "https://itcdland.csumb.edu/~jogracida/cst251/lab22/how_to_main.html";
+randomLink[22] = "https://itcdland.csumb.edu/~aau/cst251/final/final.html";
+randomLink[23] = "https://ajsamudio.github.io/cst252/";
+randomLink[24] = "http://dev-cst351-breakfast-s19.pantheonsite.io/"
 //generate a number and provide to the image to generate randomly
 var number = Math.floor(Math.random()*randomLink.length);
 
