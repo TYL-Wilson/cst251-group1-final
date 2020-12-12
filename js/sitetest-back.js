@@ -5,9 +5,7 @@
   * Randomizer code borrowed from https://www.javatpoint.com/oprweb/door.jsp?filename=random-image-generator-in-javascript1
   * Link Image code borrowed from https://stackoverflow.com/questions/14294452/how-to-create-link-on-image-using-javascript
 */
-//define random link function
-function getRandomLink() {
-//declare an array to store the images
+
 var randomLink = new Array();
 
 //insert the URL of images in array
@@ -39,8 +37,14 @@ randomLink[24] = "http://dev-cst351-breakfast-s19.pantheonsite.io/"
 //generate a number and provide to the image to generate randomly
 var copyLink = [...randomLink];
 
-var randomLink = copyLink.splice(Math.floor(Math.random() * copyLink.length),1)[0];
-return randomLink;
+//define random link function\
+function getRandomLink() {
+
+//declare an array to store the images
+
+
+ var randomLink = copyLink.splice(Math.floor(Math.random() * copyLink.length),1)[0];
+ return randomLink;
 }
 
 $("#backDoor").wrap("<a>");
